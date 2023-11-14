@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>CALCULADORA</h1>
+    <div class="cuadrado">
+        <table>
+            <tr>
+            <td colspan="4"><span id="resultado"></span></td>
+            </tr>
+        </table>
+        
+        <div class="botones">
+            <button value="1" onclick="uno()">1</button>
+            <button value="2" onclick="dos()">2</button>
+            <button value="3" onclick="tres()">3</button>
+            <button onclick="sumar()">+</button>
+        </div>
+        <div class="botones">
+            <button value="4" onclick="cuatro()">4</button>
+            <button value="5" onclick="cinco()">5</button>
+            <button value="6" onclick="seis()">6</button>
+            <button onclick="restar()">-</button>
+        </div>
+        <div class="botones">
+            <button value="7" onclick="siete()">7</button>
+            <button value="8" onclick="ocho()">8</button>
+            <button value="9" onclick="nueve()">9</button>
+            <button onclick="multiplicar()">x</button>        
+        </div>
+        <div class="botones">
+            <button onclick="borrar()">C</button>
+            <button value="0" onclick="cero()">0</button>
+            <button onclick="igual()">=</button>
+            <button onclick="dividir()">%</button>
+            
+        </div>
+    </div>
+
+    
+
+<script src="./js/funcionalidad.js"></script>    
+</body>
+</html>

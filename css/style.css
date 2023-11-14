@@ -1,0 +1,34 @@
+.cuadrado {
+    width: 350px;           /* Ancho de 150 píxeles */
+    height: 350px;          /* Alto de 150 píxeles */
+    border: 1px solid #000; /* Borde color negro y de 1 píxel de grosor */
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+
+button{
+    width: 100px;
+    height: 50px;
+    margin: 3px;
+}
+
+
+.botones{
+    display: flex;
+    justify-content: center;
+}
+
+#resultado{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    width: 345px;
+    height: 100px;
+    margin-bottom: 10px;
+    line-height: 100px;
+    background-color: rgb(228, 221, 125);
+    border-color: black;
+    border-radius: 25px;
+    overflow-y: scroll;
+}
